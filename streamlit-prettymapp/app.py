@@ -13,8 +13,9 @@ from utils import (
 from prettymapp.geo import GeoCodingError, get_aoi
 from prettymapp.settings import STYLES
 
+# Substituí o ícone, apenas para indicar que estou rodando uma versão local
 st.set_page_config(
-    page_title="prettymapp", page_icon="🖼️", initial_sidebar_state="collapsed"
+    page_title="prettymapp", page_icon="🗺️", initial_sidebar_state="collapsed"
 )
 st.markdown("# Prettymapp")
 
@@ -22,7 +23,7 @@ with open("./streamlit-prettymapp/examples.json", "r", encoding="utf8") as f:
     EXAMPLES = json.load(f)
 
 if not st.session_state:
-    st.session_state.update(EXAMPLES["Macau"])
+    st.session_state.update(EXAMPLES["USP"])
 
     lc_class_colors = get_colors_from_style("Peach")
     st.session_state.lc_classes = list(lc_class_colors.keys())  # type: ignore

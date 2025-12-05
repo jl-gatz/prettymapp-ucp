@@ -1,13 +1,13 @@
 {
-    "Macau": {
-        "address": "Praça Ferreira do Amaral, Macau",
-        "custom_title": "Macau",
+    "USP": {
+        "address": "Praça do Relógio, USP",
+        "custom_title": "USP, Cidade Universitária",
         "radius": 1100,
         "style": "Peach",
         "shape": "circle",
         "contour_width": 1,
         "contour_color": "#2F3537",
-        "image": "macao.png",
+        "image": "usp__sp.png",
         "name_on": true,
         "font_size": 25,
         "font_color": "#2F3737",
@@ -18,15 +18,15 @@
         "bg_buffer": 2,
         "bg_color": "#F2F4CB"
     },
-    "Barcelona": {
-        "address": "Plaça Tetuan, 08010 Barcelona, Spain",
-        "custom_title": "Barcelona, Spain",
-        "radius": 640,
+    "Unicamp": {
+        "address": "Praça da Paz, Campinas",
+        "custom_title": "Unicamp, Campinas",
+        "radius": 1100,
         "style": "Auburn",
         "shape": "rectangle",
         "contour_width": 0,
         "contour_color": "#2F3538",
-        "image": "barcelona.png",
+        "image": "unicamp__campinas.png",
         "name_on": true,
         "font_size": 30,
         "font_color": "#2F3738",
@@ -37,15 +37,15 @@
         "bg_buffer": 6,
         "bg_color": "#F9EFDC"
     },
-    "Würzburg": {
-        "address": "Martinstraße 4, 97070 Würzburg",
-        "custom_title": "Würzburg Old Town",
+    "UFSCar": {
+        "address": "Avenida Biblioteca Comunitária, São Carlos",
+        "custom_title": "UFSCar, São Carlos",
         "radius": 1020,
         "style": "Citrus",
         "shape": "circle",
         "contour_width": 15,
         "contour_color": "#FFFFFF",
-        "image": "edinburgh.png",
+        "image": "Unicamp__sao-carlos.png",
         "name_on": true,
         "font_size": 25,
         "font_color": "#FFFFFF",
@@ -56,15 +56,15 @@
         "bg_buffer": 4,
         "bg_color": "#000000"
     },
-    "Heerhugowaard": {
-        "address": "Stad van de Zon, Heerhugowaard, Netherlands",
-        "custom_title": "",
+    "Unesp": {
+        "address": "R. Cristóvão Colombo, 2265, São José do Rio Preto",
+        "custom_title": "Unesp, São José do Rio Preto",
         "radius": 650,
         "style": "Flannel",
         "shape": "rectangle",
         "contour_width": 0,
         "contour_color": "#2F3737",
-        "image": "heerhugowaard.png",
+        "image": "unesp__sj-rio-preto.png",
         "name_on": true,
         "font_size": 27,
         "font_color": "#2F3737",

@@ -18,7 +18,7 @@
 <br>
 
 <table>
-    <tr><td><img src="./streamlit-prettymapp/example_prints/macau.png"></td><td><img src="./streamlit-prettymapp/example_prints/barcelona.png"></td></tr>
+    <tr><td><img src="./streamlit-prettymapp/example_prints/USP.png"></td><td><img src="./streamlit-prettymapp/example_prints/Unicamp.png"></td></tr>
 </table>
 
 ## Based on the prettymaps project
@@ -61,7 +61,7 @@ from prettymapp.osm import get_osm_geometries
 from prettymapp.plotting import Plot
 from prettymapp.settings import STYLES
 
-aoi = get_aoi(address="Praça Ferreira do Amaral, Macau", radius=1100, rectangular=False)
+aoi = get_aoi(address="Praça do Relógio, Cidade Universitária, São Paulo", radius=1100, rectangular=False)
 df = get_osm_geometries(aoi=aoi)
 
 fig = Plot(
